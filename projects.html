@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2021-01-25 Mon 14:46 -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Projects</title>
+<meta name="generator" content="Org mode">
+<meta name="author" content="lambdart">
+<meta name="referrer" content="no-referrer">
+<link href="static/style.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" href="static/favicon.ico">
+<script type="text/javascript">
+// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
+<!--/*--><![CDATA[/*><!--*/
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.add("code-highlighted");
+         target.classList.add("code-highlighted");
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.remove("code-highlighted");
+         target.classList.remove("code-highlighted");
+       }
+     }
+    /*]]>*///-->
+// @license-end
+</script>
+</head>
+<body>
+<div id="preamble" class="status">
+<div class="header">
+  <div class="sitelinks">
+    <a href="index.html">Blog </a>•
+    <a href="about.html">About </a>•
+    <a href="projects.html">Projects </a> •
+    <a href="archive.html">Archive </a> •
+    <a href="https://github.com/lambdart">Github</a>
+  </div>
+</div>
+</div>
+<div id="content">
+<nav id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org4c9c87d">VLM</a></li>
+<li><a href="#org3cd04af">Cannon</a></li>
+<li><a href="#org26ee051">Ddoc</a></li>
+<li><a href="#org5e6eb6a">Lazy-Load</a></li>
+<li><a href="#org57b77cf">Ob-elixir</a></li>
+<li><a href="#org34dcc7e">Rfc-docs</a></li>
+<li><a href="#org0fddc9f">Lex</a></li>
+<li><a href="#org0c6d40b">Wall</a></li>
+<li><a href="#org04ee090">EOF</a></li>
+</ul>
+</div>
+</nav>
+
+<div id="outline-container-org4c9c87d" class="outline-2">
+<h2 id="org4c9c87d">VLM</h2>
+<div class="outline-text-2" id="text-org4c9c87d">
+<p>
+Just another <b>Emacs</b> configuration written in the literate
+programming format with the help of <a href="https://orgmode.org">org-mode</a>, that has a simple
+goal - be just a configuration file, i.e, set custom values and
+hooks for the libraries of interest.
+</p>
+
+<p>
+Some people (including me) have started to refer to Emacs as a LISP MACHINE.
+It is not strictly a lisp machine because, clearly, it is a software
+program and not a physical computer, but as that line starts to blur
+it seems like a useful epithet for <b>Emacs</b>, because these days it
+looks more and more like an <code>OS</code>.
+</p>
+
+<p>
+<a href="https://github.com/lambdart/vlm">https://github.com/lambdart/vlm</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-org3cd04af" class="outline-2">
+<h2 id="org3cd04af">Cannon</h2>
+<div class="outline-text-2" id="text-org3cd04af">
+<p>
+An <b>Elisp</b> library that mimics the beloved <a href="https://tools.suckless.org/dmenu/">Dmenu</a> to launch <code>Unix</code>
+utilities using the <b>Emacs</b> command prompt interface, a.k.a, the
+<code>minibuffer</code>.
+</p>
+
+<p>
+The project’s name itself is a joke about launching
+<code>Chrome</code> web browser inside <b>Emacs/Exwm</b> - a heavy metal ball that
+causes nightmares.
+</p>
+
+<p>
+<a href="https://github.com/lambdart/cannon">https://github.com/lambdart/cannon</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-org26ee051" class="outline-2">
+<h2 id="org26ee051">Ddoc</h2>
+<div class="outline-text-2" id="text-org26ee051">
+<p>
+An Elisp library that provides instant offline access/management of
+more then 200 <b>Dash</b> documentation sets. It doesn't require <b>Dash</b>
+application, we rely on any <b>html</b> file browser, however <b>Eww</b> text
+based browser is highly recommended!
+</p>
+
+<p>
+<a href="https://github.com/lambdart/ddoc">https://github.com/lambdart/ddoc</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-org5e6eb6a" class="outline-2">
+<h2 id="org5e6eb6a">Lazy-Load</h2>
+<div class="outline-text-2" id="text-org5e6eb6a">
+<p>
+An Elisp library that provides automatic generation of load
+definitions (autoloads) from pre-configured directories, i.e,
+other libraries, accelerating <b>Emacs</b> initialization process.
+</p>
+
+<table>
+
+
+<colgroup>
+<col  class="org-left">
+
+<col  class="org-left">
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">Lazy-Load</td>
+<td class="org-left">(emacs-init-time)</td>
+</tr>
+
+<tr>
+<td class="org-left">No</td>
+<td class="org-left">4.871672671 seconds</td>
+</tr>
+
+<tr>
+<td class="org-left">Yes</td>
+<td class="org-left">0.489159734 seconds</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+<a href="https://github.com/lambdart/lazy-load">https://github.com/lambdart/lazy-load</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-org57b77cf" class="outline-2">
+<h2 id="org57b77cf">Ob-elixir</h2>
+<div class="outline-text-2" id="text-org57b77cf">
+<p>
+An Elisp library that adds Elixir language support, i.e,
+code evaluation to Org-babel. Babel provides what is known as
+literate programming to org-mode.
+</p>
+
+<p>
+<a href="https://github.com/lambdart/ob-elixir">https://github.com/lambdart/ob-elixir</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-org34dcc7e" class="outline-2">
+<h2 id="org34dcc7e">Rfc-docs</h2>
+<div class="outline-text-2" id="text-org34dcc7e">
+<p>
+An Elisp library that provides facilities to search, fetch and read
+RFC text documents.
+</p>
+
+<p>
+<a href="https://github.com/lambdart/rfc-docs">https://github.com/lambdart/rfc-docs</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-org0fddc9f" class="outline-2">
+<h2 id="org0fddc9f">Lex</h2>
+<div class="outline-text-2" id="text-org0fddc9f">
+<p>
+Libraries Extensions - little hacks for vanilla Emacs.
+</p>
+
+<p>
+An simple library that extends other libraries (mainly builtin ones) -
+a place to put new functions to be evaluated - little hacks to improve
+<b>Emacs</b> overall usability keeping everything more organized,
+providing a safe place to add new hacks.
+</p>
+
+<p>
+<a href="https://github.com/lambdart/lex">https://github.com/lambdart/lex</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-org0c6d40b" class="outline-2">
+<h2 id="org0c6d40b">Wall</h2>
+<div class="outline-text-2" id="text-org0c6d40b">
+<p>
+An Elisp library that provides management of wallpapers using
+feh(1) - or any other unix related utility - to draw the chosen
+image.
+</p>
+
+<p>
+<a href="https://github.com/lambdart/wall">https://github.com/lambdart/wall</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-org04ee090" class="outline-2">
+<h2 id="org04ee090">EOF</h2>
+<div class="outline-text-2" id="text-org04ee090">
+<pre class="example">
+What is a man? A Miserable little pile of secrets!
+</pre>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<div id="postamble" class="site-footer">
+    (describe-package '<a href="https://github.com/lambdart/org-weblog">org-weblog</a>)
+</div>
+</div>
+</body>
+</html>
